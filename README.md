@@ -1,3 +1,13 @@
+---
+title: Mall Customer Analyzer
+emoji: 🛍️
+colorFrom: blue
+colorTo: indigo
+sdk: streamlit
+app_file: app.py
+pinned: false
+---
+
 # 🛍️ AI Mall Customer Cluster Analyzer App
 
 Aplikasi berbasis **Machine Learning (Unsupervised Learning)** yang dirancang untuk membantu manajemen mall dalam memetakan karakteristik perilaku pelanggan secara otomatis. Dengan segmentasi yang akurat, mall dapat mengambil keputusan strategis yang tepat sasaran, seperti personalisasi promosi, efisiensi anggaran marketing, hingga perencanaan event bertarget.
