@@ -43,21 +43,23 @@ Aplikasi ini menyediakan dua mode analisis klastering terpisah yang disesuaikan 
 
 Susunan direktori dan file di dalam repositori projek ini diatur dengan struktur baku sebagai berikut:
 
+```text
 MALL-CUSTOMER-CLUSTER-ANALYZER-APP/
 ├── dataset/
-│ └── Mall_Customers.csv # Dataset mentah Mall Customers dari Kaggle
+│   └── Mall_Customers.csv                 # Dataset mentah Mall Customers dari Kaggle
 ├── laporan/
-│ └── Laporan_UAS_Mufid_Refaya_38250013.pdf # Dokumen Laporan Resmi format PDF
+│   └── Laporan_UAS_Mufid_Refaya_38250013.pdf # Dokumen Laporan Resmi format PDF
 ├── models/
-│ ├── kmeans_2d.pkl # Model K-Means hasil training 2 Fitur (K=5)
-│ ├── kmeans_3d.pkl # Model K-Means hasil training 3 Fitur (K=6)
-│ ├── scaler_2d.pkl # Scaler MinMaxScaler untuk data 2 Fitur
-│ └── scaler_3d.pkl # Scaler MinMaxScaler untuk data 3 Fitur
+│   ├── kmeans_2d.pkl                      # Model K-Means hasil training 2 Fitur (K=5)
+│   ├── kmeans_3d.pkl                      # Model K-Means hasil training 3 Fitur (K=6)
+│   ├── scaler_2d.pkl                      # Scaler MinMaxScaler untuk data 2 Fitur
+│   └── scaler_3d.pkl                      # Scaler MinMaxScaler untuk data 3 Fitur
 ├── notebook/
-│ └── Project_UAS_Mufid_38250013.ipynb # Jupyter Notebook proses training & analisis data
-├── app.py # Script utama aplikasi UI Streamlit & Backend
-├── README.md # Dokumentasi panduan projek (File ini)
-└── requirements.txt # Daftar dependensi library Python yang dibutuhkan
+│   └── Project_UAS_Mufid_38250013.ipynb   # Jupyter Notebook proses training & analisis data
+├── app.py                                 # Script utama aplikasi UI Streamlit & Backend
+├── README.md                              # Dokumentasi panduan projek (File ini)
+└── requirements.txt                       # Daftar dependensi library Python yang dibutuhkan
+```
 
 ---
 
