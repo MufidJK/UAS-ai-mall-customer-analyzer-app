@@ -10,6 +10,12 @@ pinned: false
 
 # 🛍️ AI Mall Customer Cluster Analyzer App
 
+[![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue?style=for-the-badge)](https://huggingface.co/spaces/mufidjk/mall-customer-analyzer)
+[![Video Demo](https://img.shields.io/badge/YouTube-Video%20Demo-red?style=for-the-badge&logo=youtube)](https://youtu.be/SSTkVHxPxuo)
+[![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-black?style=for-the-badge&logo=github)](https://github.com/MufidJK/UAS-ai-mall-customer-analyzer-app)
+
+---
+
 Aplikasi berbasis **Machine Learning (Unsupervised Learning)** yang dirancang untuk membantu manajemen mall dalam memetakan karakteristik perilaku pelanggan secara otomatis. Dengan segmentasi yang akurat, mall dapat mengambil keputusan strategis yang tepat sasaran, seperti personalisasi promosi, efisiensi anggaran marketing, hingga perencanaan event bertarget.
 
 Aplikasi web interaktif ini dibangun menggunakan **Streamlit** untuk _frontend_ dan didukung oleh grafik interaktif **Plotly** agar visualisasi klastering dapat dieksplorasi secara dinamis dalam ruang 3D (bisa diputar, digeser, dan di-zoom).
@@ -71,12 +77,16 @@ MALL-CUSTOMER-CLUSTER-ANALYZER-APP/
 2. Instalasi Dependensi Library
    Buka Terminal atau Command Prompt pada direktori projek, lalu jalankan perintah berikut untuk menginstal semua library pendukung yang terdaftar di requirements.txt:
 
+   ```bash
    pip install -r requirements.txt
+   ```
 
 3. Jalankan Aplikasi Streamlit
    Eksekusi perintah di bawah ini untuk menyalakan server lokal Streamlit:
 
-   streamlit run app.py
+   ```bash
+   treamlit run app.py
+   ```
 
    Setelah perintah dijalankan, aplikasi web otomatis akan terbuka pada peramban (browser) Anda di alamat lokal: http://localhost:8501.
 
