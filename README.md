@@ -85,7 +85,7 @@ MALL-CUSTOMER-CLUSTER-ANALYZER-APP/
    Eksekusi perintah di bawah ini untuk menyalakan server lokal Streamlit:
 
    ```bash
-   treamlit run app.py
+   streamlit run app.py
    ```
 
    Setelah perintah dijalankan, aplikasi web otomatis akan terbuka pada peramban (browser) Anda di alamat lokal: http://localhost:8501.
